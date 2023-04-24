@@ -1,0 +1,362 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: roboto;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+img {
+  display: block;
+}
+ul {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+}
+h2 {
+  margin: 0;
+}
+header {
+  border-bottom: 1px solid #ececec;
+  width: 100%;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px 0;
+}
+.main {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+/* index begin */
+.logo-blue {
+  color: #2196f3;
+  font-size: 26px;
+  font-family: Raleway;
+  font-weight: 700;
+  line-height: 1.18;
+  text-decoration: none;
+  padding-right: 93px;
+}
+.logo-black {
+  color: #000000;
+}
+.black-link {
+  color: #212121;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  padding-right: not(last-child) 46px;
+}
+.black-link:hover,
+.contact:hover {
+  color: #2196f3;
+  cursor: pointer;
+}
+.contact {
+  display: flex;
+  color: #757575;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  gap: 10px;
+  fill: #757575;
+}
+
+.main-logo {
+  color: #ffffff;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  padding-bottom: 30px;
+}
+.main-background {
+  background-image: url(/images/people-in-office.jpg),
+    linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
+  max-width: 1600px;
+  text-align: center;
+  padding: 200px 0;
+  background-size: cover;
+  margin: 0 auto;
+}
+.main-button {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  text-align: center;
+  background-color: #2196f3;
+  border-radius: 4px;
+  border: none;
+  padding: 10px 42px;
+}
+.background-lorem {
+  background-color: white;
+}
+.heading-lorem {
+  color: #212121;
+  font-weight: 700;
+  line-height: 1.15;
+  font-style: normal;
+  padding-bottom: 10px;
+  padding-top: 30px;
+}
+.text-lorem {
+  color: #757575;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+.section-headings {
+  color: #212121;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  padding-bottom: 50px;
+}
+.section-what-we-do {
+  text-align: center;
+  background-color: white;
+}
+.who-is-who {
+  padding-bottom: 108px;
+}
+.background-our-team {
+  background-color: #f5f4fa;
+  text-align: center;
+  width: 100%;
+}
+.team-image {
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  width: 270px;
+}
+.name-and-position {
+  padding: 30px 30px;
+}
+.name {
+  color: #212121;
+  font-size: 16px;
+  line-height: 1.7;
+}
+.position {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.7;
+}
+.logo-white {
+  color: #ffffff;
+}
+.footer {
+  background-color: #2f303a;
+  width: 100%;
+}
+.footer-back {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.adress-footer {
+  color: #ffffff;
+  line-height: 1.7;
+  text-decoration: none;
+  font-style: normal;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 9px;
+}
+.contact-footer {
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.7;
+  text-decoration: none;
+  margin-left: auto;
+}
+/* portfolio begin */
+.button-second {
+  color: #212121;
+  background-color: #f5f4fa;
+  line-height: 1.6;
+  font-size: 16px;
+  border-radius: 4px;
+  border: none;
+  padding: 6px 22px;
+  font-weight: 500;
+}
+.button-second:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.main-portfolio {
+  background-color: white;
+}
+.image-border {
+  border-top: none;
+  border: 1px solid #eeeeee;
+  padding: 20px 24px;
+}
+
+.image-title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.image-undertitle {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.9;
+}
+.image-portfolio:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
+}
+.header-top {
+  display: flex;
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.page-links {
+  display: flex;
+  gap: 46px;
+}
+.address-links {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.lorem-element {
+  display: flex;
+  gap: 30px;
+  margin: auto;
+  padding-top: 94px;
+}
+.pictures-what-we-do {
+  display: flex;
+  gap: 30px;
+}
+.our-team {
+  display: flex;
+  gap: 30px;
+}
+.all-buttons {
+  display: flex;
+  gap: 8px;
+  padding-bottom: 50px;
+  justify-content: center;
+}
+.portfolio-pictures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.contact:hover,
+.contact:focus {
+  fill: #2196f3;
+  cursor: pointer;
+}
+.icon-lorem {
+  border-radius: 4px;
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+  padding: 25px;
+}
+.icon-customer {
+  display: inline-flex;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+  fill: #afb1b8;
+  padding: 10px;
+  row-gap: 30px;
+}
+.icon-customer:hover,
+.icon-customer :focus {
+  cursor: pointer;
+  fill: #2196f3;
+  border-color: #2196f3;
+}
+.our-customers {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.background-our-customers {
+  background-color: white;
+  text-align: center;
+  /* width: 100%; */
+  justify-content: space-between;
+}
+.social-media {
+  fill: #afb1b8;
+  width: 44px;
+  height: 44px;
+  padding: 12px 0;
+}
+.social-media:hover {
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #2196f3;
+  fill: #eeeeee;
+  width: 44px;
+  height: 44px;
+  padding: 12px 0;
+}
+.join-us {
+  color: #eeeeee;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.end-icons {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  fill: #eeeeee;
+}
+.end-icons:hover {
+  cursor: pointer;
+  background-color: #2196f3;
+}
+/* .xxx >*{display: flex;} */
+.yyy {
+  display: flex;
+  gap: 22px;
+}
+.zzz {
+  display: flex;
+  column-gap: 70px;
+}
