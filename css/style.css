@@ -303,7 +303,7 @@ header {
   row-gap: 30px;
 }
 .icon-customer:hover,
-.icon-customer :focus {
+.icon-customer:focus {
   fill: #2196f3;
   border-color: #2196f3;
 }
